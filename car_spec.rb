@@ -13,6 +13,7 @@ describe Car do
 	it "can add 10 fuel" do
 		@car.add_fuel 10
 		expect(@car.fuel).to eq 10
+		
 	end
 	
 end
